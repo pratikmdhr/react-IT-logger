@@ -1,5 +1,13 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "testing updating",
+      "attention": false,
+      "tech": "Ole Solskjaer",
+      "date": "2021-11-24T02:31:50.708Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,
