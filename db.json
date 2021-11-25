@@ -6,6 +6,13 @@
       "attention": false,
       "tech": "Ole Solskjaer",
       "date": "2021-11-24T02:31:50.708Z"
+    },
+    {
+      "message": "network card changed",
+      "attention": true,
+      "tech": "Roy Keane",
+      "date": "2021-11-25T03:02:51.384Z",
+      "id": 2
     }
   ],
   "techs": [
