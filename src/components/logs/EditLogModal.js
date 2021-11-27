@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TechSelectOptions from '../techs/TechSelectOptions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -30,7 +31,7 @@ const EditLogModal = ({ current, updateLog }) => {
 			};
 
 			updateLog(updLog);
-      M.toast({html:`Log updated by ${tech}`})
+			M.toast({ html: `Log updated by ${tech}` });
 			// Clear Fields
 			setMessage('');
 			setTech('');
@@ -63,6 +64,7 @@ const EditLogModal = ({ current, updateLog }) => {
 							<option value='' disabled>
 								Select Technician
 							</option>
+							<TechSelectOptions />
 						</select>
 					</div>
 				</div>
